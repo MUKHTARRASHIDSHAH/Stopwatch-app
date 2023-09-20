@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- Name of the project -->
+    <title>Frontend Test: Stopwatch</title>
+    <!-- CSS file with styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="name">Stopwatch</h1>
+    <!-- It is a container which contains the StopWatch -->
+    <div class="container">
+        <!-- To display the time -->
+        <h1 id="displayTime">00:00:00.000</h1>
+        <!-- Buttons for different functionality -->
+        <div class="buttons">
+            <!-- Stop button with onclick function to stop the stopwatch -->
+            <img src="images/stop.png" alt="stop" onclick="watchStop()">
+            <!-- Start button with onclick function to start the stopwatch -->
+            <img src="images/start.png" alt="start" onclick="watchStart()">
+            <!-- Reset button with onclick function to reset the stopwatch -->
+            <img src="images/reset.png" alt="reset" onclick="watchReset()">
+        </div>
+    </div>
+    <!-- javascript file with all the functionalities -->
+    <script src="script.js"></script>
+</body>
+
+</html>
